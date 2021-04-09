@@ -13,6 +13,7 @@ const BlogPost = () => {
 
   useEffect(() => {
     getPost();
+    // eslint-disable-next-line
   }, []);
 
   return post ? (
